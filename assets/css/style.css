@@ -1,0 +1,1006 @@
+@font-face {
+    font-family:Poppins;
+    src: url(/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/font/Poppins-Regular.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0
+}
+
+.type_of_product {
+    display: none;
+}
+
+.additional_f_attr {
+    margin-bottom: 10px !important;
+}
+
+#sample_digital_art {
+    display: none;
+}
+.step_form_section .step_3_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20.67px;
+    padding-left: 12px;
+}
+.step_form_section span.step_count{
+  padding: 3px 0px 0px 2px;
+  
+}
+    /* identical to box height, or 21px */
+
+    /* grey */
+/*Css for first step*/
+.type_of_product:checked + .Physical {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(247, 104, 0, 0.45);
+    transition: 0.5s;
+    cursor: pointer;
+ }
+ .type_of_product:checked + .Digital {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(247, 104, 0, 0.45);
+    transition: 0.5s;
+    cursor: pointer;
+ }
+.step_form_section .container {
+    max-width: 75%;
+}
+.step_form_section span.step_count {
+    background: #FCFCFC;  
+    box-shadow: 11px 10px 13px rgba(243, 114, 86, 0.35);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding-top: 4px;
+}
+.step_form_section .attech_refrence {
+    padding-left: 15px;
+}
+.step_form_section .brush_img {
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+.step_form_section .brush_custom   {
+    width: 19px;
+    height: 16px;
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+.step_form_section .image_error{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    padding-top: 5px;
+}
+.step_form_section .step_form_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 20.67px;
+    text-align: center;
+    color: #444444;
+}
+.step_form_section .step_form_title_main {
+    margin-top: 90px;
+    margin-bottom: 68px;
+}
+.step_form_section .step_form_sub_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 148%;
+    text-align: center;
+    color: #444444;
+}
+.step_form_section .Physical {
+    width: 166px;
+    height: 166px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 11px 10px 48px rgb(243 114 86 / 35%);
+    border-radius: 100%;
+    text-align: center;
+    padding: 31px 0;
+    transition: 0.5s;
+    cursor: pointer !important;
+}
+.step_form_section .Physical span {
+    display: block;
+    padding-top: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 79.5%;
+    text-align: center;
+    color: #444444;
+}
+.previwer_sample_dig img {
+    display: none;
+    width: 100px;
+    object-fit: contain;
+}
+#sample_art_lbl {
+    cursor: pointer;
+}
+
+.step_form_section .Digital {
+    width: 166px;
+    height: 166px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 11px 10px 48px rgb(243 114 86 / 35%);
+    border-radius: 100%;
+    text-align: center;
+    padding: 31px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.step_form_section .Digital span {
+    display: block;
+    padding-top: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 79.5%;
+    text-align: center;
+    color: #444444;
+}
+.step_form_section .circle_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.step_form_section .Physical:hover,.Digital:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(247, 104, 0, 0.45);
+    transition: 0.5s;
+}
+.step_form_section .button_arrow_next {
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+    font-weight: normal;
+}
+.step_form_section .Previous_arrow {
+    padding-right: 10px;
+    position: relative;
+    top: 1px;
+    font-weight: normal;
+}
+.step_form_section .download_icon_main {
+    text-align: center;
+}
+.step_form_section .download_icon_main .download_icon {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 11px 10px 48px rgba(243, 114, 86, 0.35);
+    padding: 9px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.step_form_section .download_icon:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 43px rgba(247, 104, 0, 0.45);
+    transition: 0.5s;
+}
+.step_form_section .download_icon_main .download_icon_border  {
+   border: 2px dotted #444444;
+   width: 146px;
+   height: 146px;
+   padding-top: 35px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.step_form_section .download_icon_main .image_formate   {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 148%;
+    text-align: center;
+    color: #444444;
+    padding-top: 48px;
+}
+.step_form_section .image_upload .image_preview {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 79.5%;
+    text-align: center;
+    color: #444444;
+    margin-top: 88px;
+    margin-bottom: 48px;
+}
+.step_form_section .image_upload .image_container   {
+    position: relative;
+    width: 166px;
+    height: 166px;
+    margin-bottom: 11px;
+}
+.step_form_section .image_upload .image_container img {
+    border: 4px solid #4010A1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    object-fit: cover;
+    width: 166px;
+    height: 166px;
+}
+.step_form_section .image_upload .image_container img:hover {
+    /* filter: drop-shadow(11px 10px 13px rgba(64, 16, 161, 0.14)); */
+    box-shadow: 11px 10px 13px rgba(64, 16, 161, 0.14);
+}
+.step_form_section .image_upload .image_title   {
+    display: block;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4010A1;
+    width: 166px;
+    height: 35px;
+    padding:0px 0px 45px 0px;
+}
+.step_form_section .image_upload .image_container .delete_icon_image    {
+    display: none;
+    position: absolute;
+    right: -20px;
+    top: -16px;
+    color: #4010A1;
+    font-size: 25px;
+}
+.step_form_section .img-card:hover .delete_icon_image   {
+   display: block;
+   cursor: pointer;
+}
+#sale_price_id, #sale_price_id:focus    {
+    border: none !important;
+}
+.form-card.step-3-physical input:focus, .form-card.step-3-digital input:focus   {
+    outline: none !important;
+    margin-bottom: 0px !important;
+}
+.form-card.step-3-physical textarea:focus, .form-card.step-3-digital textarea:focus {
+    outline: none !important;
+    margin-bottom: 0px !important;
+}
+.form-card.step-3-physical input, .form-card.step-3-digital input   {
+    margin-bottom: 0px !important;
+}
+.form-card.step-3-physical textarea, .form-card.step-3-digital textarea {
+    margin-bottom: 0px !important;
+}
+.step_form_section .image_upload .plus_icon_box {
+    background: #FCFCFC;
+    color: #4010A1;
+    border: 2px solid #4010A1;
+    box-sizing: border-box;
+    border-radius: 12px;
+    opacity: 0.4;
+}
+.single_img_selected    {
+    display: none;
+}
+.image_title.pro_image_type.to_be_main  {
+    cursor: pointer;
+}
+.step_form_section .image_upload .plus_icon_box i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+}
+.step_form_section .image_upload .plus_icon_box:hover {
+    opacity: 1;
+    box-sizing: border-box;
+    box-shadow: 11px 10px 13px rgba(64, 16, 161, 0.14);
+    cursor: pointer;
+}
+.step_form_section .step_3_title_main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.step_form_section .step_3_title_icon   {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 11px 10px 48px rgba(243, 114, 86, 0.35);
+    padding: 7px 10px;
+    display: inline-block;
+}
+.step_form_section .form_label  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    display: inline-block;   
+}
+.step_form_section .form_input::placeholder,.textarea_container textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #444444;
+    opacity: 0.5; /* Firefox */
+  }  
+  .step_form_section .form_input:-ms-input-placeholder,.textarea_container textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #444444;
+    opacity: 0.5;
+  }  
+  .step_form_section .form_input::-ms-input-placeholder,.textarea_container textarea:-ms-input-placeholder { /* Microsoft Edge */
+    color: #444444;
+    opacity: 0.5;
+  }
+  .step_form_section .form_input  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    width: 100%;
+    background: #FCFCFC;
+    padding: 13px 13px 13px 40px;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+    cursor: pointer;
+    margin: 0px 0px;
+}
+.step_form_section .icon_brush  {
+    position: relative;
+}
+.step_form_section .icon_brush::before {
+    content: "";
+    background-image: url(/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/brush.svg);
+    position: absolute;
+    width: 18.95px;
+    height: 16px;
+    left: 14px;
+    top: 14px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+.step_form_section .form_gradient_border    {
+    border: double 2px transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #d8cbe7,#f9d9df);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-bottom: 15px;
+}
+.step_form_section .form_select {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    width: 100%;
+    border-radius: 22px;
+    padding: 13px 14px 13px 40px;
+    outline: 0;
+    border: 0;
+    background: #FCFCFC;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/arrow_select.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 18px;
+}
+.step_form_section .check_box_container {
+    background: #FCFCFC; 
+    border-radius: 22px ;
+}
+.step_form_section .check_box_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 48px;
+  }
+  .step_form_section .check_box_select_text {
+    margin: 0;
+    padding: 13px 13px 13px 40px;  
+  }
+  .step_form_section .divider   {
+    border-top: double 2px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #d8cbe7,#f9d9df);
+    background-origin: border-box;
+    background-clip: content-box, border-box; 
+  }
+.step_form_section #heading     {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28.62px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 46px;
+}
+.step_form_section #heading .create_text    {
+    background: linear-gradient(
+   90deg, #C84E89 37.5%, #F15F79 90.5%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-background-clip:text;
+    -moz-text-fill-color:transparent;
+}
+.step_form_section #heading .product_text   {
+    background: linear-gradient( 
+    90deg, #C84E89 1.5%, #F15F79 0.5%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip:text;
+    -moz-text-fill-color: transparent;
+}
+.step_form_section .form-card   {
+    text-align: left
+}
+.step_form_section #wcfm_vandor_pro_form fieldset:not(:first-of-type) {
+    display: none
+}
+/*Third step*/
+.step-3-physical, .step-3-digital, .step-2  {
+    display: none;
+}
+.step-1{
+    display: block;
+}
+.ets_file_uploder{
+    text-align: center;
+}
+.step_form_section #wcfm_vandor_pro_form .action-button     {
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-top: 92px;
+    float: right;
+    width: 196px;
+    height: 48px;
+    background: #4010A1;
+    border-radius: 36px;
+    border: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    outline: none;   
+}
+.step_form_section #wcfm_vandor_pro_form .action-button:hover,
+.step_form_section #wcfm_vandor_pro_form .action-button:focus {
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+    box-shadow: 11px 10px 13px rgba(243, 114, 86, 0.35);
+    border-radius: 36px;
+}
+.step_form_section #wcfm_vandor_pro_form .action-button-previous {
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-top: 92px;
+    float: right;
+    width: 196px;
+    height: 48px;
+    background: #4010A1;
+    border-radius: 36px;
+    border: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    outline: none;
+    float: left;
+}
+.step_form_section #wcfm_vandor_pro_form .action-button-previous:hover,
+.step_form_section #wcfm_vandor_pro_form .action-button-previous:focus {
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+    box-shadow: 11px 10px 13px rgba(243, 114, 86, 0.35);
+    border-radius: 36px;
+}
+.step_form_section .card {
+    z-index: 0;
+    border: none;
+    position: relative;
+}
+.step_form_section .step_form_section .fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+.step_form_section .purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+.step_form_section .steps {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 111%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 32px;
+}
+.step_form_section .fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+.step_form_section #progressbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.step_form_section #progressbar .active {
+    color: #333333;
+    opacity: 1;
+}
+.step_form_section #progressbar .active span.step_count {
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+    color: #ffffff;
+    box-shadow: none;
+}
+.step_form_section #progressbar li {
+    list-style-type: none;
+    color: #444444;
+    opacity: 0.6;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;  
+}
+.step_form_section .progress {
+    height: 8px;
+    background: rgba(247, 145, 0, 0.22);
+    border-radius: 6px;
+    max-width:890px !important;
+}
+.step_form_section .excerpt-wrap ol, .excerpt-wrap ul, .nv-content-wrap ol, .nv-content-wrap ul
+{
+    padding:15px !important;
+}
+.step_form_section .progress-bar {
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%)!important;
+    border-radius: 6px;   
+}
+.step_form_section .fit-image {
+    width: 100%;
+    object-fit: cover;
+}
+.step_form_section .ets_checkbox {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+  } 
+  /* Hide the browser's default checkbox */
+  .step_form_section .ets_checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }  
+  /* Create a custom checkbox */
+  .step_form_section .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  /* When the checkbox is checked, add a blue background */
+  .step_form_section .ets_checkbox input:checked ~ .checkmark {
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+    border-radius: 3px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+.step_form_section .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;    
+  }
+  /* Show the checkmark when checked */
+  .step_form_section .ets_checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .upload_lbl{
+    display: none !important;
+  }
+  /* Style the checkmark/indicator */
+.step_form_section .ets_checkbox .checkmark:after {
+    left: 5px;
+    top: 6px;
+    width: 12px;
+    height: 10.43px;
+    background-image:url(/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/right_icon.svg);
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .step_form_section .checkmark1 {
+      height: 20px;
+      width: 20px;
+      background: white;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+  }
+  .step_form_section .ets_checkbox input:checked ~ .checkmark .checkmark1 {
+    display: none ;
+  }
+  .step_form_section .check_box_label   {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    display: block;
+  }
+  .step_form_section .checkbox_main {
+      padding: 26px 0 32px 25px;
+  }
+  .step_form_section .custom_text   {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  .step_form_section .custom_text::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #4010A1 1.04%, #C84E89 37.5%, #F15F79 62.5%, #F79100 98.96%);
+  }
+  .step_form_section .mb_25 {
+      margin-bottom: 25px;
+  }
+  .show_limit{
+    display:fixed;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    padding-top: 6px;
+  }
+  span.custom_text::after {
+    content: "";
+    background-image: url(/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/brush.svg);
+    position: absolute;
+    width: 18.95px;
+    height: 16px;
+    left: 5px;
+    bottom: 7px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+  .step_form_section input.custom_input_check_box {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    padding:0 0 0 33px;
+    width: 100%;
+}
+.step_form_section .custom_input_check_box::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #444444;
+    opacity: 1;
+  }
+  .step_form_section .custom_input_check_box:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #444444;
+  }
+  .step_form_section .custom_input_check_box::-ms-input-placeholder { /* Microsoft Edge */
+    color: #444444;
+  }
+  .step_form_section .price_note {
+    display: block;
+    padding-left: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+}
+.step_form_section .textarea_container textarea {
+    outline: none;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    width: 100%;
+    background: #FCFCFC;
+    padding: 13px 13px 13px 40px;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+    cursor: pointer;
+    resize: vertical;
+}
+.step_form_section .textarea_bg_light   {
+    background: #FCFCFC;  
+    border-radius: 22px;
+    padding-bottom: 6px;
+    padding-right: 2px;
+}
+.step_form_section .textarea_wrapper {
+    position: relative;
+}
+.step_form_section .textarea_wrapper::after {
+    pointer-events: none;
+    content: "";
+    background-image: url(/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/textarea.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    bottom: 4px;
+    right: 0;
+    z-index: 2;
+    border-radius: 50px;
+    background-color: #FCFCFC;
+}
+.step_form_section span.textarea_note {
+    text-align: left;
+    padding-left: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+    padding-top: 6px;
+}
+.step_form_section #wcfm_vandor_pro_form .btn_submit_form button    {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #CC0A42;
+    width: 166px;
+    height: 56px;
+    padding: 16px 10px;
+    border: 1px solid #CC0A42;
+    box-sizing: border-box;
+    border-radius: 36px;
+    background-color: white;
+    outline: none;
+}
+.step_form_section .btn_submit_form {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 50x;
+}
+.step_form_section #wcfm_vandor_pro_form .btn_submit_form button:hover  {
+    background: #CC0A42;
+    box-shadow: 11px 10px 13px rgba(204, 10, 66, 0.22);
+    color: #ffffff;
+}
+.check_box_select_text  {
+    cursor: pointer !important;
+}
+/*Form  collaps css*/
+.step_form_section #wcfm_vandor_pro_form .checkbox_main.active  {
+    display: block;
+}
+.step_form_section #wcfm_vandor_pro_form .checkbox_main {
+    display: none;
+}
+.step_form_section #wcfm_vandor_pro_form .check_box_select_text.ets-collapsed:after {
+    content: "";
+    position: absolute;
+    right: 22px;
+    top: 25px;
+    background-image: url("/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/arrow_up.svg");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s linear;
+}
+.step_form_section #wcfm_vandor_pro_form .check_box_select_text:after {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 22px;
+    top: 25px;
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s linear;
+    background-image: url("/wp-content/plugins/ets-wcfm-frontendform-add-on/assets/img/arrow_select.svg");
+}
+.step_form_section #wcfm_vandor_pro_form .divider.active    {
+    display: block;
+}
+.step_form_section #wcfm_vandor_pro_form .divider   {
+    display: none;
+}
+/*Form  collaps css*/
+/*cat gns mapping*/
+.technics_main  {
+    display: none;
+}
+.sample_image_div   {
+    width: 30%;
+    float: left;
+}
+.sample_image_div   {
+    margin-bottom: 20px;
+}
+.sample_image_div:hover .delete_sample_image    {
+    display: block;
+}
+.sample_image_div  .delete_sample_image {
+    cursor: pointer;
+    position: absolute;
+    top: -16px;
+    right: -3px;
+    color: #4010A1;
+    font-size: 25px;
+    display: none;
+}
+.f-display {
+  display: block !important;
+}
+/*cat gns mapping*/
+@media (max-width:767px)    {
+    .step_form_section .container {
+        max-width: 100%;
+    }
+    .step_form_section .step_3_title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .step_form_section .form_select{
+        background-position-x: 97%;
+        margin: 0
+        padding-left:33px;
+    }
+    .step_form_section #progressbar li {
+        font-size: 12px !important;
+    }
+    .step_form_section .steps {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .step_form_section #heading {
+        font-size: 20px;
+        margin-bottom: 41px;
+        line-height: 30px;
+    }
+    .step_form_section #progressbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .step_form_section .step_form_title {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .step_form_section .step_form_sub_title {
+        font-size: 15px;
+    }
+    .step_form_section .image_upload .image_preview {
+         font-size: 27px;
+    }
+    .step_form_section .circle_main {
+        flex-direction: column;
+    }
+    .step_form_section .Physical { 
+         margin-bottom: 34px;
+    }
+    .step_form_section #wcfm_vandor_pro_form .action-button {
+        width: 100%;
+        float: none;
+    }
+    .step_form_section #wcfm_vandor_pro_form .action-button-previous {
+        float: none;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .step_form_section .download_icon_main .image_formate   {
+        font-size:11px;
+    }
+    .step_form_section .image_upload .image_container {
+        width: 115px;
+        height: 125px;
+        margin:10px auto;
+    }
+    .step_form_section .image_upload .image_container img {
+        width: 115px;
+        height: 125px;
+    }
+    .step_form_section .image_upload .image_title {
+        font-size: 12px;
+        text-align: center;
+        width: 132px;
+        height: 25px;
+        line-height: 12px;
+        padding: 5px;
+        margin: 0px;
+    }
+    .step_form_section .btn_submit_form button  {
+        width: 100%;
+    }
+    .step_form_section .p_mobile_0  {
+        padding: 0;
+    }
+    .step_form_section #progressbar li {
+        font-size: 14px;
+    }
+}
